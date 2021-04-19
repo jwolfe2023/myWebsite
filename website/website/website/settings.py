@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 STATICFILES_DIRS = [
-	"/root/website/website/static",
+	"/Users/iamth/Downloads/website/website/website/static",
 ]
 
 
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/root/website/website/templates'],
+        'DIRS': ['/Users/iamth/Downloads/website/website/website/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

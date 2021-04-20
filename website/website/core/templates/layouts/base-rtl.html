@@ -34,11 +34,19 @@
   <link href="https://fonts.googleapis.com/css?family=Cairo&amp;subset=arabic" rel="stylesheet">
 
   <!-- CSS Files -->
+<<<<<<< HEAD
   <link href="/static/assets/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
   <link href="/static/assets/css/material-dashboard-rtl.css?v=1.1" rel="stylesheet" />
 
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="/static/assets/demo/demo.css" rel="stylesheet" />
+=======
+  <link href="{% static '/static/assets/css/material-dashboard.css?v=2.1.1' %}" rel="stylesheet" />
+  <link href="{% static '/static/assets/css/material-dashboard-rtl.css?v=1.1' %}" rel="stylesheet" />
+
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="{% static '/static/assets/demo/demo.css' %}" rel="stylesheet" />
+>>>>>>> master
 
   <!-- Specific Page CSS goes HERE  --> 
   {% block stylesheets %}{% endblock stylesheets %}

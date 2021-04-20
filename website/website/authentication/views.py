@@ -5,6 +5,10 @@ Copyright (c) 2019 - present AppSeed.us
 
 from django.shortcuts import render
 
+<<<<<<< HEAD
+=======
+# Create your views here.
+>>>>>>> master
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
@@ -49,7 +53,11 @@ def register_user(request):
             msg     = 'User created - please <a href="/login">login</a>.'
             success = True
             
+<<<<<<< HEAD
             return redirect("/login/")
+=======
+            #return redirect("/login/")
+>>>>>>> master
 
         else:
             msg = 'Form is not valid'    
